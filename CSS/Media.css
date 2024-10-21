@@ -1,0 +1,186 @@
+@media (min-width: 0px) {
+  .Sidebar li {
+    font-size: 14px;
+  }
+
+  #Home ul {
+    gap: 10px !important;
+    padding-left: 0.75rem !important;
+  }
+
+  #Home h1 {
+    font-size: 50px !important;
+  }
+
+  #closeSideBar {
+    font-size: 20px;
+    padding: .7rem !important;
+  }
+
+  #Duration .allSingers {
+    width: 100% !important;
+  }
+
+  #sectionTime div:first-child {
+    display: flex;
+    height: auto;
+    gap: 4vw;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  #Details div:first-child>div {
+    width: 60%;
+    height: 30vh;
+    border: white 1px solid;
+  }
+
+}
+
+@media (min-width:410px) {
+  #Details div:first-child {
+    display: flex;
+    height: auto;
+    gap: 4vw;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  #Details div:first-child>div {
+    width: 50%;
+    height: 30vh;
+    border: white 1px solid;
+  }
+
+}
+
+@media (min-width: 576px) {
+  .Sidebar li {
+    font-size: 25px;
+  }
+
+  #Home ul {
+    gap: 20px !important;
+    padding-left: 1rem !important;
+  }
+
+  #Home h1 {
+    font-size: 60px !important;
+  }
+
+  #Duration .allSingers {
+    width: 75% !important;
+  }
+
+  #closeSideBar {
+    font-size: 25px;
+  }
+
+  #Details div:first-child {
+    display: flex;
+    height: auto;
+    gap: 4vw;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  #Details div:first-child>div {
+    width: 40%;
+    height: 30vh;
+    border: white 1px solid;
+  }
+}
+
+@media (min-width:470px) {
+  #Details div:first-child {
+    display: flex;
+    height: auto;
+    gap: 4vw;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  #Details div:first-child>div {
+    width: 40%;
+    height: 30vh;
+    border: white 1px solid;
+  }
+}
+
+@media (min-width: 580px) {
+  #Details div:first-child {
+    display: flex;
+    height: auto;
+    gap: 4vw;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  #Details div:first-child>div {
+    width: 35%;
+    height: 30vh;
+    border: white 1px solid;
+
+  }
+
+  @media (min-width: 670px) {
+    #Details div:first-child {
+      display: flex;
+      height: auto;
+      gap: 4vw;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    #Details div:first-child>div {
+      width: 31%;
+      height: 30vh;
+      border: white 1px solid;
+    }
+
+  }
+
+  @media (min-width: 992px) {
+    #closeSideBar {
+      font-size: 25px;
+    }
+
+    #Duration .allSingers {
+      width: 55% !important;
+    }
+
+    .Sidebar li {
+      font-size: 26px;
+    }
+
+    #Home ul {
+      gap: 20px !important;
+      padding-left: 1rem !important;
+    }
+
+    #Home h1 {
+      font-size: 60px !important;
+    }
+
+    #Details div:first-child {
+      display: inline-flex;
+      ;
+      width: 100%;
+      height: auto;
+      gap: 1vw;
+      justify-content: center;
+    }
+
+    #Details div:first-child>div {
+      width: 20%;
+      height: 30vh;
+      border: white 1px solid;
+    }
+  }
+}
